@@ -21,7 +21,7 @@
 
     <VMain>
       <VRow no-gutters>
-        <VCol v-for="(_, index) in pages" :key="index" :id="index + 1" cols="12" md="6">
+        <VCol v-for="(_, index) in pages" :key="index" :id="index + 1" cols="12" md="6" class="mb-6">
           <VImg :src="`./book/YUNA_MESSAGE_BOOK_${(index + 1).toString().padStart(3, 0)}.webp`" />
         </VCol>
       </VRow>
