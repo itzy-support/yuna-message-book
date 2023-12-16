@@ -7,6 +7,7 @@ import { defineConfig } from "vite";
 import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig({
+  base: "/yuna-message-book/",
   plugins: [
     vue({
       template: { transformAssetUrls },
